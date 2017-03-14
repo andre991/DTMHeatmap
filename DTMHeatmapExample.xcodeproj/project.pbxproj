@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65FF166D1E78A8DA0083328D /* DTMHeatmap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FF16641E78A8DA0083328D /* DTMHeatmap.framework */; };
+		65FF16741E78A8DA0083328D /* DTMHeatmapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF16731E78A8DA0083328D /* DTMHeatmapTests.swift */; };
+		65FF16761E78A8DA0083328D /* DTMHeatmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF16661E78A8DA0083328D /* DTMHeatmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FF16791E78A8DA0083328D /* DTMHeatmap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FF16641E78A8DA0083328D /* DTMHeatmap.framework */; };
+		65FF167A1E78A8DA0083328D /* DTMHeatmap.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65FF16641E78A8DA0083328D /* DTMHeatmap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED07C2811A6427BF006B26CA /* first_week.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED07C27E1A6427BF006B26CA /* first_week.txt */; };
 		ED07C2821A6427BF006B26CA /* mcdonalds.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED07C27F1A6427BF006B26CA /* mcdonalds.txt */; };
 		ED07C2831A6427BF006B26CA /* third_week.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED07C2801A6427BF006B26CA /* third_week.txt */; };
@@ -24,7 +29,51 @@
 		EDAC954E1A5DC9F000E8403E /* DTMHeatmapRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC954C1A5DC9F000E8403E /* DTMHeatmapRenderer.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		65FF166E1E78A8DA0083328D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAC95141A5DC8FE00E8403E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FF16631E78A8DA0083328D;
+			remoteInfo = DTMHeatmap;
+		};
+		65FF16701E78A8DA0083328D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAC95141A5DC8FE00E8403E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAC951B1A5DC8FE00E8403E;
+			remoteInfo = DTMHeatmapExample;
+		};
+		65FF16771E78A8DA0083328D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAC95141A5DC8FE00E8403E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FF16631E78A8DA0083328D;
+			remoteInfo = DTMHeatmap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65FF16801E78A8DA0083328D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				65FF167A1E78A8DA0083328D /* DTMHeatmap.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		65FF16641E78A8DA0083328D /* DTMHeatmap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTMHeatmap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FF16661E78A8DA0083328D /* DTMHeatmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTMHeatmap.h; sourceTree = "<group>"; };
+		65FF16671E78A8DA0083328D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FF166C1E78A8DA0083328D /* DTMHeatmapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTMHeatmapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FF16731E78A8DA0083328D /* DTMHeatmapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTMHeatmapTests.swift; sourceTree = "<group>"; };
+		65FF16751E78A8DA0083328D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED07C27E1A6427BF006B26CA /* first_week.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = first_week.txt; sourceTree = "<group>"; };
 		ED07C27F1A6427BF006B26CA /* mcdonalds.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcdonalds.txt; sourceTree = "<group>"; };
 		ED07C2801A6427BF006B26CA /* third_week.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = third_week.txt; sourceTree = "<group>"; };
@@ -52,17 +101,51 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		65FF16601E78A8DA0083328D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FF16691E78A8DA0083328D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FF166D1E78A8DA0083328D /* DTMHeatmap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDAC95191A5DC8FE00E8403E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EDAC95461A5DC9A100E8403E /* MapKit.framework in Frameworks */,
+				65FF16791E78A8DA0083328D /* DTMHeatmap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65FF16651E78A8DA0083328D /* DTMHeatmap */ = {
+			isa = PBXGroup;
+			children = (
+				65FF16661E78A8DA0083328D /* DTMHeatmap.h */,
+				65FF16671E78A8DA0083328D /* Info.plist */,
+			);
+			path = DTMHeatmap;
+			sourceTree = "<group>";
+		};
+		65FF16721E78A8DA0083328D /* DTMHeatmapTests */ = {
+			isa = PBXGroup;
+			children = (
+				65FF16731E78A8DA0083328D /* DTMHeatmapTests.swift */,
+				65FF16751E78A8DA0083328D /* Info.plist */,
+			);
+			path = DTMHeatmapTests;
+			sourceTree = "<group>";
+		};
 		ED07C27D1A6427BF006B26CA /* Sample Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +184,8 @@
 			children = (
 				EDAC95481A5DC9DE00E8403E /* Heatmap */,
 				EDAC951E1A5DC8FE00E8403E /* DTMHeatmapExample */,
+				65FF16651E78A8DA0083328D /* DTMHeatmap */,
+				65FF16721E78A8DA0083328D /* DTMHeatmapTests */,
 				EDAC95471A5DC9CB00E8403E /* Frameworks */,
 				EDAC951D1A5DC8FE00E8403E /* Products */,
 			);
@@ -110,6 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				EDAC951C1A5DC8FE00E8403E /* DTMHeatmapExample.app */,
+				65FF16641E78A8DA0083328D /* DTMHeatmap.framework */,
+				65FF166C1E78A8DA0083328D /* DTMHeatmapTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,7 +248,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		65FF16611E78A8DA0083328D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FF16761E78A8DA0083328D /* DTMHeatmap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		65FF16631E78A8DA0083328D /* DTMHeatmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FF167F1E78A8DA0083328D /* Build configuration list for PBXNativeTarget "DTMHeatmap" */;
+			buildPhases = (
+				65FF165F1E78A8DA0083328D /* Sources */,
+				65FF16601E78A8DA0083328D /* Frameworks */,
+				65FF16611E78A8DA0083328D /* Headers */,
+				65FF16621E78A8DA0083328D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTMHeatmap;
+			productName = DTMHeatmap;
+			productReference = 65FF16641E78A8DA0083328D /* DTMHeatmap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65FF166B1E78A8DA0083328D /* DTMHeatmapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FF16811E78A8DA0083328D /* Build configuration list for PBXNativeTarget "DTMHeatmapTests" */;
+			buildPhases = (
+				65FF16681E78A8DA0083328D /* Sources */,
+				65FF16691E78A8DA0083328D /* Frameworks */,
+				65FF166A1E78A8DA0083328D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65FF166F1E78A8DA0083328D /* PBXTargetDependency */,
+				65FF16711E78A8DA0083328D /* PBXTargetDependency */,
+			);
+			name = DTMHeatmapTests;
+			productName = DTMHeatmapTests;
+			productReference = 65FF166C1E78A8DA0083328D /* DTMHeatmapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EDAC951B1A5DC8FE00E8403E /* DTMHeatmapExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDAC953F1A5DC8FE00E8403E /* Build configuration list for PBXNativeTarget "DTMHeatmapExample" */;
@@ -169,10 +304,12 @@
 				EDAC95181A5DC8FE00E8403E /* Sources */,
 				EDAC95191A5DC8FE00E8403E /* Frameworks */,
 				EDAC951A1A5DC8FE00E8403E /* Resources */,
+				65FF16801E78A8DA0083328D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				65FF16781E78A8DA0083328D /* PBXTargetDependency */,
 			);
 			name = DTMHeatmapExample;
 			productName = DTMHeatMapExample;
@@ -185,9 +322,20 @@
 		EDAC95141A5DC8FE00E8403E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Bryan Oltman";
 				TargetAttributes = {
+					65FF16631E78A8DA0083328D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					65FF166B1E78A8DA0083328D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X4EYDGL7NV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDAC951B1A5DC8FE00E8403E;
+					};
 					EDAC951B1A5DC8FE00E8403E = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -207,11 +355,27 @@
 			projectRoot = "";
 			targets = (
 				EDAC951B1A5DC8FE00E8403E /* DTMHeatmapExample */,
+				65FF16631E78A8DA0083328D /* DTMHeatmap */,
+				65FF166B1E78A8DA0083328D /* DTMHeatmapTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		65FF16621E78A8DA0083328D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FF166A1E78A8DA0083328D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDAC951A1A5DC8FE00E8403E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +392,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		65FF165F1E78A8DA0083328D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FF16681E78A8DA0083328D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FF16741E78A8DA0083328D /* DTMHeatmapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDAC95181A5DC8FE00E8403E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,6 +423,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65FF166F1E78A8DA0083328D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FF16631E78A8DA0083328D /* DTMHeatmap */;
+			targetProxy = 65FF166E1E78A8DA0083328D /* PBXContainerItemProxy */;
+		};
+		65FF16711E78A8DA0083328D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAC951B1A5DC8FE00E8403E /* DTMHeatmapExample */;
+			targetProxy = 65FF16701E78A8DA0083328D /* PBXContainerItemProxy */;
+		};
+		65FF16781E78A8DA0083328D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FF16631E78A8DA0083328D /* DTMHeatmap */;
+			targetProxy = 65FF16771E78A8DA0083328D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EDAC95291A5DC8FE00E8403E /* Main.storyboard */ = {
@@ -265,6 +462,114 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		65FF167B1E78A8DA0083328D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = DTMHeatmap/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ucb.bepid.DTMHeatmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65FF167C1E78A8DA0083328D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = DTMHeatmap/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ucb.bepid.DTMHeatmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65FF167D1E78A8DA0083328D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = X4EYDGL7NV;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = DTMHeatmapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ucb.bepid.DTMHeatmapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTMHeatmapExample.app/DTMHeatmapExample";
+			};
+			name = Debug;
+		};
+		65FF167E1E78A8DA0083328D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X4EYDGL7NV;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = DTMHeatmapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ucb.bepid.DTMHeatmapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTMHeatmapExample.app/DTMHeatmapExample";
+			};
+			name = Release;
+		};
 		EDAC953D1A5DC8FE00E8403E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -364,6 +669,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		65FF167F1E78A8DA0083328D /* Build configuration list for PBXNativeTarget "DTMHeatmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FF167B1E78A8DA0083328D /* Debug */,
+				65FF167C1E78A8DA0083328D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65FF16811E78A8DA0083328D /* Build configuration list for PBXNativeTarget "DTMHeatmapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FF167D1E78A8DA0083328D /* Debug */,
+				65FF167E1E78A8DA0083328D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		EDAC95171A5DC8FE00E8403E /* Build configuration list for PBXProject "DTMHeatmapExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
