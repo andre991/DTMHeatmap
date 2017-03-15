@@ -16,7 +16,3 @@ FOUNDATION_EXPORT const unsigned char DTMHeatmapVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DTMHeatmap/PublicHeader.h>
 
-#import <DTMHeatmap/DTMHeatmapPublic.h>
-#import <DTMHeatmap/DTMHeatmap.h>
-#import <DTMHeatmap/DTMHeatmapRenderer.h>
-
